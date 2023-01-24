@@ -1,0 +1,58 @@
+<html>
+<title> Instalacion Angular </title>
+<h1 align="center"> Guide </h1>
+<br>
+<br>
+<ul>
+    <li>Install Node JS</li>
+    <li>Install Angular</li>
+    <li>Deploy Project</li>
+    <li>Create Structure</li>
+    <li>Install Angular Material</li>
+  </ul>
+  <br>
+  <br>
+  <h1 align="center">Create Structure</h1>
+  <br>
+  1.- delete app.component html (Content)
+  <br> 2.-components (Terminal)
+
+  <ul>
+    <li>ng g c compoents/agregar-editar-usuario</li>
+    <li> ng g c compoents/listado-usuario</li>
+    <li>ng g c compoents/ver-usuario</li>
+   
+  </ul>
+  <br> 3.- interfaces
+  <br>
+  ng g i interfaces/interfaces
+  <br> 4.- services
+  <br>
+  ng g s services/susuario
+  <br>5.- shares
+  <br>Create Shared folder
+  <h1 align="center">Install Angular Material</h1>
+  <br>
+  <br>  1.- ng add @angular/material
+  <br>  2.- Verify Status
+  <br>  2.1 Let's display a slide toggle component in your app and verify that everything works.
+  <br> You need to import the MatSlideToggleModule that you want to display by adding the following lines to your app.module.ts file.
+  <br>import { MatSlideToggleModule } from '@angular/material/slide-toggle';
+  <br>
+  <br>
+  <br>
+
+  <br> @NgModule ({
+    <br> imports: [
+    <br>   MatSlideToggleModule,
+    <br> ]
+    <br> })
+    <br>class AppModule {}
+    <br>
+  <br>
+  <br>
+  <mat-card>
+    <mat-card-content>Simple card</mat-card-content>
+  </mat-card>
+  <br>
+</html>
